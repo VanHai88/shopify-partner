@@ -1,0 +1,82 @@
+.inventory__filer-group{
+  display: flex;
+  justify-content: center;
+}
+
+.inventory__filer-group .inventory-filer__button{
+  width: 10%;
+}
+
+.inventory-filer__button .Polaris-Button{
+  width: 100%;
+}
+
+.inventory__filer-group .inventory-filer__input{
+  width: 69%;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.inventory__filer-group .inventory-filer__select{
+  width: 21%;
+}
+
+.inventory-filer__select .Polaris-Labelled__LabelWrapper{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.inventory-filer__select .Polaris-Select{
+  display: inline-block;
+}
+
+/* table product */
+
+.inventory__card .Polaris-Card__Section{
+  padding: 0;
+}
+
+.table-product{
+  display: flex;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #00000045;
+}
+
+.inventory__table-product .table__checked .Polaris-Choice{
+  padding: 0;
+}
+
+.inventory__table-product .table__list{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 3.5fr;
+  gap: 0 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.inventory__table-product .table__item{
+  text-align: center;
+}
+
+.inventory__table-product .table__item .table__item-title{
+  font-weight: 600;
+}
+
+/* table product body */
+
+.table-body__item-product{
+  display: flex;
+  flex-direction: row;
+}
+
+.table-body .table-body__item-img{
+  width: 60px;
+}
+
+.table-body .table-body__item-quantity {
+  padding: 5px;
+  border: 1px solid #555;
+}
